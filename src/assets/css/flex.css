@@ -1,0 +1,19 @@
+.column{
+    display: flex;
+    flex-direction: column;
+
+}
+.justify_content{
+    display: flex;
+    justify-content: center;
+}
+.align_items{
+    display: flex;
+    align-items: center;
+}
+.justify_content_align_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

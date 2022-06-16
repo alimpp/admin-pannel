@@ -1,0 +1,8 @@
+.opa_anim{animation: 2s opaAnim;}
+@keyframes opaAnim { 0%{opacity: 0;} 100%{opacity: 1;} }
+.side_anim{animation: 0.5s sideAnim;}
+@keyframes sideAnim {0%{width: 0;} 100%{width: 400px;} }
+
+.profile_pic{width: 60px; height: 60px; border-radius: 50%;}
+.text_none{text-decoration: none;}
+.text_none:hover{transition: 0.5s;}

@@ -1,11 +1,10 @@
 <template>
-  <div class="home">
-     <h1>Home</h1>
-  </div>
+<div class="favorites">
+    <h1>Favorites</h1>
+</div>
 </template>
 
 <script>
-
 export default {
 
 }
