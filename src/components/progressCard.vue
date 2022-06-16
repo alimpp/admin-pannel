@@ -6,7 +6,8 @@
           <div class="cartProgress1 column">
              <span class="dark_color pt-2 px-2 size_c">Sale Last Mount</span>
              <span class="dark_color pt-2 px-2 size_x">260 000 500 $</span>
-             <span class="dark_color pt-5 px-2 size_y">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde beatae est veritatis mollitia repellendus nesciunt modi enim necessitatibus vero temporibus accusamus fugit quidem, distinctio commodi eveniet nemo nam eligendi ut!</span>
+             <div class="d-flex"><button class="btn btn-danger mt-3 mx-2">Checkout</button></div>
+             <span class="dark_color pt-2 px-2 size_y">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde beatae est veritatis mollitia repellendus nesciunt modi enim necessitatibus vero temporibus accusamus fugit quidem, distinctio commodi eveniet nemo nam eligendi ut!</span>
           </div>
          </div>
 
@@ -14,7 +15,8 @@
          <div class="cartProgress2 column">
              <span class="light_color pt-2 px-2 size_c">Sale Last Week</span>
              <span class="light_color pt-2 px-2 size_x">150 250 500 $</span>
-             <span class="light_color pt-5 px-2 size_y">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde beatae est veritatis mollitia repellendus nesciunt modi enim necessitatibus vero temporibus accusamus fugit quidem, distinctio commodi eveniet nemo nam eligendi ut!</span>
+             <div class="d-flex"><button class="btn btn-danger mt-3 mx-2">Checkout</button></div>
+             <span class="light_color pt-2 px-2 size_y">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde beatae est veritatis mollitia repellendus nesciunt modi enim necessitatibus vero temporibus accusamus fugit quidem, distinctio commodi eveniet nemo nam eligendi ut!</span>
           </div>
          </div>
 
@@ -22,7 +24,8 @@
           <div class="cartProgress3 column">
              <span class="info_color pt-2 px-2 size_c">Sale Last year</span>
              <span class="info_color pt-2 px-2 size_x">268 880 500 $</span>
-             <span class="info_color pt-5 px-2 size_y">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde beatae est veritatis mollitia repellendus nesciunt modi enim necessitatibus vero temporibus accusamus fugit quidem, distinctio commodi eveniet nemo nam eligendi ut!</span>
+             <div class="d-flex"><button class="btn btn-danger mt-3 mx-2">Checkout</button></div>
+             <span class="info_color pt-2 px-2 size_y">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde beatae est veritatis mollitia repellendus nesciunt modi enim necessitatibus vero temporibus accusamus fugit quidem, distinctio commodi eveniet nemo nam eligendi ut!</span>
           </div>
          </div>
 
