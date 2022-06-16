@@ -9,4 +9,5 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import './assets/css/main.css'
 import './assets/css/text.css'
 import './assets/css/flex.css'
+import 'animate.css';
 createApp(App).use(store).use(router).mount('#app')

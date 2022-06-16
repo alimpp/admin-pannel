@@ -1,16 +1,20 @@
 <template>
   <div class="home">
-     <h1>Home</h1>
+      <progressBarCircle/>
+      <progressBarHorizontal/>
+      <progressCard/>
   </div>
 </template>
 
 <script>
-
+import progressBarCircle from '../components/progressBarCircle.vue'
+import progressBarHorizontal from '../components/progressBarHorizontal.vue'
+import progressCard from '../components/progressCard.vue'
 export default {
-
+   components : {progressBarCircle , progressBarHorizontal , progressCard}
 }
 </script>
 
-<style>
-
+<style scoped >
+.home{height: 100vh; overflow: scroll;}
 </style>
