@@ -6,3 +6,7 @@
 .profile_pic{width: 60px; height: 60px; border-radius: 50%;}
 .text_none{text-decoration: none;}
 .text_none:hover{transition: 0.5s;}
+
+::-webkit-scrollbar{width: 0px;}
+::-webkit-scrollbar-track{background-color: #fafafa;border-radius: 5px;}
+::-webkit-scrollbar-thumb{background-color: #fdfdfd; border-radius: 5px;} 

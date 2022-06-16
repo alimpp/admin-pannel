@@ -1,17 +1,13 @@
 <template>
-  <div class="home">
-      <progressBarCircle/>
-      <progressBarHorizontal/>
-      <progressCard/>
+  <div class="home scrollbar">
+      <homeDataCP/>
   </div>
 </template>
 
 <script>
-import progressBarCircle from '../components/progressBarCircle.vue'
-import progressBarHorizontal from '../components/progressBarHorizontal.vue'
-import progressCard from '../components/progressCard.vue'
+import homeDataCP from '../components/dataComponets/homeDataCP.vue'
 export default {
-   components : {progressBarCircle , progressBarHorizontal , progressCard}
+   components : { homeDataCP }
 }
 </script>
 
