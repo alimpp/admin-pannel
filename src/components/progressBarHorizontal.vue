@@ -1,19 +1,21 @@
 <template>
   <div class="horizontal animate__animated animate__backInRight">
-   <div class="column">
-        <span class="blue_color size_c px-5">Statistics Sale</span>
-     <span class="dark_color size_x px-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque...</span>
+   <div class="column mt-3">
    </div>
      <div class="column col-md-12 mx-5">
+            <span class="blue_color size_y">Last Week</span>
             <div class="progress mt-2" style="height:30px;">
                 <div class="progress-bar"  role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
             </div>
+            <span class="blue_color size_y">Last Mount</span>
             <div class="progress mt-2"  style="height:30px;">
                 <div class="progress-bar bg-danger" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
             </div>
+             <span class="blue_color size_y">Last Year</span>
             <div class="progress mt-2"  style="height:30px;">
                 <div class="progress-bar bg-warning" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
             </div>
+             <span class="blue_color size_y">Last Two Year</span>
             <div class="progress mt-2"  style="height:30px;">
                 <div class="progress-bar bg-info" role="progressbar" style="width: 88%;" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">88%</div>
             </div>
