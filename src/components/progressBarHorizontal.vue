@@ -15,10 +15,6 @@
             <div class="progress mt-2"  style="height:30px;">
                 <div class="progress-bar bg-warning" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
             </div>
-             <span class="blue_color size_y">Last Two Year</span>
-            <div class="progress mt-2"  style="height:30px;">
-                <div class="progress-bar bg-info" role="progressbar" style="width: 88%;" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">88%</div>
-            </div>
      </div>
   </div>
 </template>
