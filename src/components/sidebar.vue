@@ -27,13 +27,6 @@
             </div>
           </router-link>
 
-          <router-link class="light_color size_x text_none" to="/Favorites">
-          <div class="d-flex">
-          <i class="bi bi-star size_a >"></i> 
-          <span class="size_y pt-3 px-2 >">Favorites</span>
-          </div>
-          </router-link>
-
           <router-link class="light_color size_x text_none" to="/Meet">
           <div class="d-flex">
           <i class="bi bi-microsoft size_a >"></i>
@@ -45,6 +38,13 @@
           <div class="d-flex">
           <i class="bi bi-layout-text-window-reverse size_a >"></i>
           <span class="size_y pt-3 px-2 >">Posts</span>
+          </div>
+          </router-link>
+
+          <router-link class="light_color size_x text_none" to="/Favorites">
+          <div class="d-flex">
+          <i class="bi bi-star size_a >"></i> 
+          <span class="size_y pt-3 px-2 >">Favorites</span>
           </div>
           </router-link>
 
@@ -96,50 +96,50 @@
           <div class="column mt-5 mx-3">
           <router-link class="light_color size_x text_none" to="/">
           <div class="d-flex">
-            <i class="bi bi-house-fill size_a gray_color"></i> 
-            <span class="size_y pt-3 px-2 gray_color">Home</span>
+            <i class="bi bi-house-fill size_a blue_color"></i> 
+            <span class="size_y pt-3 px-2 blue_color">Home</span>
           </div>
           </router-link>
 
           <router-link class="light_color size_x text_none" to="/Projects">
             <div class="d-flex">
-            <i class="bi bi-kanban size_a gray_color"></i> 
-            <span class="size_y pt-3 px-2 gray_color">Projects</span>
+            <i class="bi bi-kanban size_a blue_color"></i> 
+            <span class="size_y pt-3 px-2 blue_color">Projects</span>
             </div>
-          </router-link>
-
-          <router-link class="light_color size_x text_none" to="/Favorites">
-          <div class="d-flex">
-          <i class="bi bi-star size_a gray_color"></i> 
-          <span class="size_y pt-3 px-2 gray_color">Favorites</span>
-          </div>
           </router-link>
 
           <router-link class="light_color size_x text_none" to="/Meet">
           <div class="d-flex">
-          <i class="bi bi-microsoft size_a gray_color"></i>
-          <span class="size_y pt-3 px-2 gray_color">Meet</span>
+          <i class="bi bi-microsoft size_a blue_color"></i>
+          <span class="size_y pt-3 px-2 blue_color">Meet</span>
           </div>
           </router-link>
 
           <router-link class="light_color text_none"  to="/Posts">
           <div class="d-flex">
-          <i class="bi bi-layout-text-window-reverse size_a gray_color"></i>
-          <span class="size_y pt-3 px-2 gray_color">Posts</span>
+          <i class="bi bi-layout-text-window-reverse size_a blue_color"></i>
+          <span class="size_y pt-3 px-2 blue_color">Posts</span>
+          </div>
+          </router-link>
+
+          <router-link class="light_color size_x text_none" to="/Favorites">
+          <div class="d-flex">
+          <i class="bi bi-star size_a blue_color"></i> 
+          <span class="size_y pt-3 px-2 blue_color">Favorites</span>
           </div>
           </router-link>
 
           <router-link class="light_color text_none" to="/Profile">
              <div class="d-flex">
-             <i class="bi bi-person size_a gray_color"></i>
-             <span class="size_y pt-3 px-2 gray_color">Profile</span>
+             <i class="bi bi-person size_a blue_color"></i>
+             <span class="size_y pt-3 px-2 blue_color">Profile</span>
              </div>
           </router-link>
 
           </div>
 
           <div class="mt-5 mx-3">
-                 <i class="bi bi-gear-fill size_c gray_color"></i><span class="size_x px-2 gray_color">Setting</span>
+              <i class="bi bi-gear-fill size_c blue_color"></i><span class="size_x px-2 blue_color">Setting</span>
           </div>
 
           <div class="d-flex justify_content_align_items pt-5" style="margin-top:200px;">
@@ -180,8 +180,10 @@ export default {
   border-radius: 10px;
   transition: 1s;
 }
+
 @media (max-width:1000px) {
     .side{display: none;}
     .responsive{display: block;}
+    .router-link-active{box-shadow: 15px 10px 5px #707070; background: none;}
 }
 </style>
