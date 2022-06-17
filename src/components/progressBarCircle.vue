@@ -74,11 +74,10 @@ export default {
   justify-content: center;
   flex-direction: column;
   background-color: #ffffff;
-  margin: 0 20px;
+  margin: 0 auto;
   width: 280px;
   height: 350px;
   border-radius: 5px;
-  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
 }
 
 .cart .percent {
