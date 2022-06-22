@@ -181,7 +181,7 @@ export default {
   transition: 1s;
 }
 
-@media (max-width:1000px) {
+@media (max-width:1200px) {
     .side{display: none;}
     .responsive{display: block;}
     .router-link-active{box-shadow: 15px 10px 5px #707070; background: none;}
