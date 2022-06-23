@@ -1,7 +1,7 @@
 <template>
   <div class="projectData ">
-
-     <div class="row">
+    <div class="container">
+        <div class="row">
        <div class="col-lg-6 column justify_content animate__animated animate__fadeInLeft">
         <span class="blue_color size_c px-4">Lorem ipsum dolor, sit amet consectetur...</span>
         <span class="dark_color size_x px-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, ipsa nihil soluta accusamus labore obcaecati placeat recusandae nam quas iusto, accusantium harum maiores consequatur hic optio ab facilis at illum?</span>
@@ -11,9 +11,7 @@
       </div>
      </div>
 
-   
-    
-          <div class="row opa_anim">
+     <div class="row opa_anim">
            
               <div class="col-lg-6 mt-4 p-4 column px-5 justify_content hover_project" v-for="project in getProject" :key="project.id">
                
@@ -40,9 +38,7 @@
               </div>
               
           </div>
-         
-        
-     
+    </div>
   </div>
 </template>
 
