@@ -4,8 +4,12 @@
 @keyframes sideAnim {0%{width: 0;} 100%{width: 400px;} }
 
 .profile_pic{width: 60px; height: 60px; border-radius: 50%;}
+.project_user_profile_pic{width: 45px; height: 45px; border-radius: 50%;}
 .text_none{text-decoration: none;}
 .text_none:hover{transition: 0.5s;}
+.link{text-decoration: none;}
+.hover_project{background: none; transition: 0.5s;}
+.hover_project:hover{background: #cecece; border-radius: 15px;}
 
 ::-webkit-scrollbar{width: 0px;}
 ::-webkit-scrollbar-track{background-color: #fafafa;border-radius: 5px;}

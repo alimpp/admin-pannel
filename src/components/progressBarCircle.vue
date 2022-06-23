@@ -1,8 +1,7 @@
 <template>
-    <div class="progressBar animate__animated animate__backInDown">
+    <div class="progressBar">
        <div class="row mt-1">
-       <span class="blue_color size_c px-5">Welcome To Dashboard UI</span>
-         <span class="dark_color size_x px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum voluptate eius provident eveniet magni cumque assumenda, laudantium perferendis, necessitatibus animi corporis earum facilis quia saepe modi voluptates praesentium. Odio, quaerat. </span>
+       
        <div class="col-md-4">
                     <div class="cart">
                         <div class="percent">

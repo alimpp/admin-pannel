@@ -1,6 +1,10 @@
 <template>
-  <div class="homeDC">
-   <progressBarCircle/>
+  <div class="homeData">
+   <div class="d-flex column animate__animated animate__backInDown">
+      <span class="blue_color size_c px-5">Welcome To Dashboard UI</span>
+      <span class="dark_color size_x px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum voluptate eius provident eveniet magni cumque assumenda, laudantium perferendis, necessitatibus animi corporis earum facilis quia saepe modi voluptates praesentium. Odio, quaerat. </span>
+   </div>
+   <progressBarCircle class="animate__animated animate__backInDown"/>
     <div class="row">
       <div class="col-lg-6">
          <chartLine class="my-4 mx-3 animate__animated animate__fadeInLeft"/>

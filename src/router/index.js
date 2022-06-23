@@ -5,6 +5,7 @@ import Profile from '../views/Profile'
 import Posts from '../views/Posts'
 import Meet from '../views/Meet'
 import Favorites from '../views/Favorites'
+import singleProject from '../components/singleComponent/singleProject'
 
 const routes = [
     {
@@ -16,6 +17,11 @@ const routes = [
       path: '/Projects',
       name: 'Projects',
       component: Projects
+    },
+    {
+      path: '/Projects/:id',
+      name: 'singleProject',
+      component: singleProject
     },
     {
       path: '/Profile',

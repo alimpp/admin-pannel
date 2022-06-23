@@ -1,22 +1,22 @@
 <template>
-  <div class="projects">
-      <h1>{{test}}</h1>
- 
+  <div class="projects scrollbar">
+     <projectDataCP/>
   </div>
 </template>
 
 <script>
-
+import projectDataCP from '../components/dataComponets/projectDataCP.vue'
 export default {
-   components : {} ,
+   components : {projectDataCP} ,
    computed : {
-     test(){
-      return this.$store.getters['Users/getTest']
-     }
+    
    }
 }
 </script>
 
 <style>
-
+.projects{height: 100vh; overflow: scroll; display: flex; flex-direction: column;}
+@media (max-width: 1200px) {
+     .projects{justify-content: inherit;}
+}
 </style>
