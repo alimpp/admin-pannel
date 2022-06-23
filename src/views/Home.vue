@@ -1,13 +1,13 @@
 <template>
   <div class="home scrollbar">
-      <homeDataCP/>
+      <homeDataComponent/>
   </div>
 </template>
 
 <script>
-import homeDataCP from '../components/dataComponets/homeDataCP.vue'
+import homeDataComponent from '../components/dataComponets/homeDataComponent.vue'
 export default {
-   components : { homeDataCP }
+   components : { homeDataComponent }
 }
 </script>
 

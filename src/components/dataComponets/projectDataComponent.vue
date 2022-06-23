@@ -1,5 +1,5 @@
 <template>
-  <div class="projectData ">
+  <div class="projectData">
     <div class="container">
         <div class="row">
        <div class="col-lg-6 column justify_content animate__animated animate__fadeInLeft">
@@ -7,7 +7,7 @@
         <span class="dark_color size_x px-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, ipsa nihil soluta accusamus labore obcaecati placeat recusandae nam quas iusto, accusantium harum maiores consequatur hic optio ab facilis at illum?</span>
       </div>
       <div class="col-lg-6 animate__animated animate__fadeInRight">
-        <redCard class="mx-5 mt-2"/>
+        <blueCart class="mx-5 mt-2"/>
       </div>
      </div>
 
@@ -44,15 +44,15 @@
 
 <script>
 import chartLine from '../chartLine.vue'
-import userData from '../dataComponets/userData.vue'
-import redCard from '../cardComponents/redCard.vue'
+import userData from './userData.vue'
+import blueCart from '../cardComponents/blueCart.vue'
 export default {
     computed : {
       getProject(){
         return this.$store.getters['Projects/getProject']
       } , 
     } , 
-    components : {chartLine , userData , redCard}
+    components : {chartLine , userData , blueCart}
 }
 </script>
 

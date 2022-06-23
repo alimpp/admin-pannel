@@ -1,12 +1,13 @@
 <template>
 <div class="favorites">
-    <h1>Favorites</h1>
+   <favoritesDataComponent/>
 </div>
 </template>
 
 <script>
+import favoritesDataComponent from '../components/dataComponets/favoritesDataComponent.vue'
 export default {
-
+    components : {favoritesDataComponent}
 }
 </script>
 

@@ -1,13 +1,13 @@
 <template>
   <div class="projects scrollbar">
-     <projectDataCP/>
+     <projectDataComponent/>
   </div>
 </template>
 
 <script>
-import projectDataCP from '../components/dataComponets/projectDataCP.vue'
+import projectDataComponent from '../components/dataComponets/projectDataComponent.vue'
 export default {
-   components : {projectDataCP} ,
+   components : {projectDataComponent} ,
    computed : {
     
    }

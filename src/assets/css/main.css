@@ -9,8 +9,8 @@
 .text_none:hover{transition: 0.5s;}
 .link{text-decoration: none;}
 .hover_project{background: none; transition: 0.5s;}
-.hover_project:hover{background: #cecece; border-radius: 15px;}
-
+.hover_project:hover{background: #e1e1e1; border-radius: 15px;}
+.pannelBadge{border-radius: 50%; padding: 5px 5px; width: 30px ; height: 30px; background-color: #9627ec; color: #fafafa;}
 ::-webkit-scrollbar{width: 0px;}
 ::-webkit-scrollbar-track{background-color: #fafafa;border-radius: 5px;}
 ::-webkit-scrollbar-thumb{background-color: #fdfdfd; border-radius: 5px;} 
