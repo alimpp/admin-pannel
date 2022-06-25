@@ -3,6 +3,7 @@
 .side_anim{animation: 0.5s sideAnim;}
 @keyframes sideAnim {0%{width: 0;} 100%{width: 400px;} }
 
+.pointer{cursor: pointer;}
 .profile_pic{width: 60px; height: 60px; border-radius: 50%;}
 .project_user_profile_pic{width: 50px; height: 50px; border-radius: 50%;}
 .text_none{text-decoration: none;}
