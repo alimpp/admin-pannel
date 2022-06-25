@@ -13,7 +13,7 @@
        <userData/>
     </div>
     <div class="d-flex">
-       <button class="btn btn-primary mt-4">Add To Favorite</button>
+       <button class="btn btn-primary mt-4" @click="addProjectToFavorites(project)">Add To Favorite</button>
        <button class="btn btn-danger mt-4 mx-2" @click="goToProjects">Back To Projects</button>
     </div>
     <progressBarCircle/>
@@ -40,6 +40,9 @@ export default {
    methods : {
     goToProjects(){
        this.$router.push('/Projects')
+    } , 
+    addProjectToFavorites(project){
+      return this.$store.dispatch('FavoritesProjects/addToFavoritesProjects' , project)
     }
    }
 }

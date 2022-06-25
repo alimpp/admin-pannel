@@ -1,5 +1,5 @@
 <template>
-  <div class="favoritesMeets">
+  <div class="favoritesMeets animate__animated animate__slideInRight">
     <h1>Meets</h1>
   </div>
 </template>

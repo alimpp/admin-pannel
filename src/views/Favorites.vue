@@ -1,5 +1,5 @@
 <template>
-<div class="favorites">
+<div class="favorites scrollbar">
    <favoritesDataComponent/>
 </div>
 </template>
@@ -11,6 +11,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped >
+.favorites{height: 100vh; overflow: scroll; display: flex; flex-direction: column;}
+@media (max-width: 1200px) {
+     .favorites{justify-content: inherit;}
+}
 </style>
