@@ -22,19 +22,19 @@ const FavoritesPosts = {
             state.favoritesPosts.push(post)
             updateLocalStorage(state.favoritesPosts)
         } , 
-        // clearFavoritesPosts(state){
-        //     localStorage.removeItem('favoritesProjects')
-        //     Swal.fire({
-        //         position: 'top',
-        //         icon: 'warning',
-        //         title: 'Favorites Cleared',
-        //         showConfirmButton: false,
-        //         timerProgressBar : true , 
-        //         toast : true , 
-        //         timer: 2000
-        //     }) 
-        //     return state.favoritesProjects = []
-        // }
+        clearFavoritesPosts(state){
+            localStorage.removeItem('favoritesPosts')
+            Swal.fire({
+                position: 'top',
+                icon: 'warning',
+                title: 'Favorites Cleared',
+                showConfirmButton: false,
+                timerProgressBar : true , 
+                toast : true , 
+                timer: 2000
+            }) 
+            return state.favoritesPosts = []
+        }
     } , 
     actions : {
         addPostToFavorites({commit} , post){

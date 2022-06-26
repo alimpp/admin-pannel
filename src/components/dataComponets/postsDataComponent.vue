@@ -3,15 +3,15 @@
     <div class="container">
        <div class="row mt-2">
        <div class="col-lg-6">
-            <blueCart/>
+            <blueCart class="animate__animated animate__fadeInLeft"/>
        </div>
        <div class="col-lg-6">
-         <redCart/>
+         <redCart class="animate__animated animate__fadeInRight"/>
        </div>
        </div>
 
-       <div class="row">
-        <div class="col-lg-4 mt-2 px-2 py-2" v-for="post in getPosts" :key="post.id">
+       <div class="row ">
+        <div class="col-lg-4 mt-2 px-2 py-2 animate__animated animate__rotateInUpRight" v-for="post in getPosts" :key="post.id">
           <a :href="`/Posts/${post.id}`" class="link">
           <div class="d-flex">
           <img class="project_user_profile_pic my-2" :src="post.userImage" alt="Error">

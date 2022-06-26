@@ -91,6 +91,9 @@ export default {
     } ,
     clearProjects(){
       return this.$store.commit('FavoritesProjects/clearFavoritesProjects')
+    } , 
+    clearPosts(){
+      return this.$store.commit('FavoritesPosts/clearFavoritesPosts')
     }
    } ,
    components : {redCart , blueCart ,favoritesProjects ,favoritesPosts ,favoritesMeets}
