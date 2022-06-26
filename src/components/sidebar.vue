@@ -1,7 +1,7 @@
 <template>
   <div class="sidebar">
 
-      <div class="side column bg-dark p-2 side_anim" style="box-shadow: 15px 10px 5px #707070;">
+      <div class="side column bg-dark p-2 side_anim">
          <div class="mb-2 mt-5 bg-primary justify_content_align_items" style="border-radius:10px; height:60px;">  <span class="light_color size_c px-2">Dashboard</span> </div>
          
           <div class="d-flex bg-light mt-2 mb-2" style="border-radius:10px;">
@@ -184,6 +184,6 @@ export default {
 @media (max-width:1200px) {
     .side{display: none;}
     .responsive{display: block;}
-    .router-link-active{box-shadow: 15px 10px 5px #707070; background: none;}
+    .router-link-active{box-shadow: 3px 3px 3px #707070; background: none;}
 }
 </style>

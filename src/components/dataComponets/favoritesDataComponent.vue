@@ -11,34 +11,34 @@
          </div>
       </div>
 
-      <div class="col-lg-12">
-        <!-- <button class="btn btn-info mt-3" @click="isProjects">Projects</button>
-        <span class="pannelBadge mx-2">{{projectsBadge}}</span>
-        <button class="btn btn-warning mt-3" @click="isMeets">Meet</button>
-        <span class="pannelBadge mx-2">20</span>
-        <button class="btn btn-primary mt-3" @click="isPosts">Posts</button>
-        <span class="pannelBadge mx-2">20</span> -->
+      <div class="col-lg-12 mt-3">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Favorites List</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item pointer">
-          <a class="nav-link" @click="isProjects">Projects <span class="pannelBadge mx-2">{{projectsBadge}}</span></a> 
-        </li>
-        <li class="nav-item pointer">
-          <a class="nav-link"  @click="isPosts">Posts <span class="pannelBadge mx-2">20</span></a>
-        </li>
-        <li class="nav-item pointer">
-          <a class="nav-link" @click="isMeets">Meets <span class="pannelBadge mx-2">20</span></a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Favorites List</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item pointer">
+                    <a class="nav-link" @click="isProjects">Projects <span class="pannelBadge mx-2">{{projectsBadge}}</span></a> 
+                  </li>
+                  <li class="nav-item pointer">
+                    <a class="nav-link"  @click="isPosts">Posts <span class="pannelBadge mx-2">0</span></a>
+                  </li>
+                  <li class="nav-item pointer">
+                    <a class="nav-link" @click="isMeets">Meets <span class="pannelBadge mx-2">0</span></a>
+                  </li>
+                </ul>
+        
+              </div>
+                <div class="d-flex">
+                <button class="btn btn-danger" @click="clearProjects" v-if="projects">Clear Projects</button>
+                <button class="btn btn-danger" @click="clearPosts" v-if="posts">Clear Posts</button>
+                <button class="btn btn-danger" @click="clearMeets" v-if="meets">Clear Meets</button>
+                </div>
+            </div>
+         </nav>
       </div>
 
       <div class="row">
@@ -86,6 +86,9 @@ export default {
       this.posts = false 
       this.meets = true
     } ,
+    clearProjects(){
+      return this.$store.commit('FavoritesProjects/clearFavoritesProjects')
+    }
    } ,
    components : {redCart , blueCart ,favoritesProjects ,favoritesPosts ,favoritesMeets}
 }

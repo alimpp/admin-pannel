@@ -21,6 +21,19 @@ const FavoritesProjects = {
         updateFavoritesProjects(state , project){
             state.favoritesProjects.push(project)
             updateLocalStorage(state.favoritesProjects)
+        } , 
+        clearFavoritesProjects(state){
+            localStorage.removeItem('favoritesProjects')
+            Swal.fire({
+                position: 'top',
+                icon: 'warning',
+                title: 'Favorites Cleared',
+                showConfirmButton: false,
+                timerProgressBar : true , 
+                toast : true , 
+                timer: 2000
+            }) 
+            return state.favoritesProjects = []
         }
     } , 
     actions : {
@@ -33,7 +46,7 @@ const FavoritesProjects = {
                 showConfirmButton: false,
                 timerProgressBar : true , 
                 toast : true , 
-                timer: 1000
+                timer: 2000
             })
         }
     }  , 
