@@ -24,7 +24,7 @@
                     <a class="nav-link" @click="isProjects">Projects <span class="pannelBadge mx-2">{{projectsBadge}}</span></a> 
                   </li>
                   <li class="nav-item pointer">
-                    <a class="nav-link"  @click="isPosts">Posts <span class="pannelBadge mx-2">0</span></a>
+                    <a class="nav-link"  @click="isPosts">Posts <span class="pannelBadge mx-2">{{postsBadge}}</span></a>
                   </li>
                   <li class="nav-item pointer">
                     <a class="nav-link" @click="isMeets">Meets <span class="pannelBadge mx-2">0</span></a>
@@ -68,6 +68,9 @@ export default {
    computed : {
      projectsBadge(){
         return this.$store.getters['FavoritesProjects/badgeFavoritesProjects']
+     } , 
+     postsBadge(){
+      return this.$store.getters['FavoritesPosts/badgeFavoritesPosts']
      }
    } ,
    methods : {

@@ -6,7 +6,7 @@ import Posts from '../views/Posts'
 import Meet from '../views/Meet'
 import Favorites from '../views/Favorites'
 import singleProject from '../components/singleComponent/singleProject'
-
+import singlePost from '../components/singleComponent/singlePost'
 const routes = [
     {
       path: '/',
@@ -32,6 +32,11 @@ const routes = [
       path: '/Posts',
       name: 'Posts',
       component: Posts
+    },
+    {
+      path: '/Posts/:id',
+      name: 'singlePost',
+      component: singlePost
     },
     {
       path: '/Meet',
