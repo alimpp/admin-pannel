@@ -7,7 +7,7 @@
         <span class="dark_color size_x px-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, ipsa nihil soluta accusamus labore obcaecati placeat recusandae nam quas iusto, accusantium harum maiores consequatur hic optio ab facilis at illum?</span>
       </div>
       <div class="col-lg-6 animate__animated animate__fadeInRight">
-        <blueCart class="mx-5 mt-2"/>
+        <img src="./project.jpeg" alt="Error" style="width:100%; height:300px;">
       </div>
      </div>
 

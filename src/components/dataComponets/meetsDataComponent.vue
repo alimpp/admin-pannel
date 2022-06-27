@@ -10,8 +10,7 @@
         <redCart class="mt-2 animate__animated animate__fadeInRight"/>
         </div>
         </div>
-        <hr>
-      
+        
         <div class="col-lg-12 my-3 animate__animated animate__fadeInRight" v-for="meet in getMeets" :key="meet.id">
             <a :href="`/Meet/${meet.id}`" class="link column">
             <div class="row">
