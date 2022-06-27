@@ -7,6 +7,7 @@ import Meet from '../views/Meet'
 import Favorites from '../views/Favorites'
 import singleProject from '../components/singleComponent/singleProject'
 import singlePost from '../components/singleComponent/singlePost'
+import singleMeet from '../components/singleComponent/singleMeet'
 const routes = [
     {
       path: '/',
@@ -42,6 +43,11 @@ const routes = [
       path: '/Meet',
       name: 'Meet',
       component: Meet
+    },
+    {
+      path: '/Meet/:id',
+      name: 'singleMeet',
+      component: singleMeet
     },
     {
       path: '/Favorites',

@@ -1,7 +1,7 @@
 <template>
   <div class="favoritesProjects column mt-4 animate__animated animate__slideInRight">
    <div class="row">
-    <div class="col-lg-12 " v-for="project in getFavoritesProjects" :key="project.id">
+    <div class="col-lg-4 " v-for="project in getFavoritesProjects" :key="project.id">
        <a :href="`/Projects/${project.id}`" class="link column">
        <span class="blue_color size_x">Project Name</span>
        <span class="dark_color size_y py-1 px-1 bg-light">{{project.name}}</span>
