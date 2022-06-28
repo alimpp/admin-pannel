@@ -2,7 +2,7 @@
   <div class="singlePost">
     <div class="container">
     
-            <div class="col-lg-12">
+            <div class="col-lg-12 opa_anim">
             <div class="row">
               <div class="col-lg-5">
                <img :src="post.postImage" alt="Error" style="width:100%; height:400px; border-radius:10px;">
