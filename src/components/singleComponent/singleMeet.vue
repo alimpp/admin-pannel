@@ -14,7 +14,7 @@
                 </div>
                 <span class="dark_color size_y">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus id quidem vel quo quaerat dignissimos totam inventore libero ex commodi, ea optio. Hic distinctio temporibus ullam numquam quod quia cupiditate!</span>
                 <div class="d-flex">
-                <button class="btn btn-primary my-2">Add To Favorite</button>
+                <button class="btn btn-primary my-2" @click="addMeetToFavorites(meet)">Add To Favorite</button>
                 <button class="btn btn-danger my-2 mx-2" @click="goToProject">Go To Meets</button>
                 </div>
         </div>
@@ -44,6 +44,9 @@ export default {
    methods : {
     goToProject(){
       return this.$router.push('/Meet')
+    } , 
+    addMeetToFavorites(meet){
+      return this.$store.dispatch('FavoritesMeets/addToFavoritesMeets' , meet)
     }
    }
 }
