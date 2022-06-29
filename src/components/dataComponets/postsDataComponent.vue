@@ -3,10 +3,10 @@
     <div class="container">
        <div class="row mt-2">
        <div class="col-lg-6">
-            <blueCart class="animate__animated animate__fadeInLeft"/>
+            <blueCart class="animate__animated animate__fadeInLeft mt-2"/>
        </div>
        <div class="col-lg-6">
-         <redCart class="animate__animated animate__fadeInRight"/>
+         <redCart class="animate__animated animate__fadeInRight mt-2"/>
        </div>
        </div>
 
@@ -18,7 +18,7 @@
           <span class="dark_color size_x py-3 px-2">{{post.createBy}}</span>
          </div>
            <img :src="post.postImage" alt="Error" style="width:100%; height:300px; border-radius:10px;">
-           <span class="dark_color size_y py-1">{{post.description}}</span>
+           <span class="dark_color size_y">{{post.description}}</span>
           </a>
         </div>
        </div>

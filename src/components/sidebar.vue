@@ -7,8 +7,8 @@
           <div class="d-flex bg-light mt-2 mb-2" style="border-radius:10px;">
           <img class="profile_pic mx-2  mt-1 mb-1" src="./img/adm.jpg" alt="ERROR">
            <div class="column mx-3 mt-2">
-                    <h5 class="dark_color">James Luki</h5>
-                    <span class="dark_color size_y">james1999@gmail.com</span>
+                    <h5 class="dark_color">{{profile.name}}</h5>
+                    <span class="dark_color size_y">{{profile.email}}</span>
            </div>
           </div>
 
@@ -88,8 +88,8 @@
           <div class="d-flex bg-primary mt-2 mb-2" style="border-radius:10px; height:80px;">
           <img class="profile_pic mx-2  mt-2 mb-2" src="./img/adm.jpg" alt="ERROR">
            <div class="column mx-3 mt-2">
-                    <h5 class="light_color">James Luki</h5>
-                    <span class="light_color size_y">james1999@gmail.com</span>
+                    <h5 class="light_color">{{profile.name}}</h5>
+                    <span class="light_color size_y">{{profile.email}}</span>
            </div>
           </div>
 
@@ -161,7 +161,11 @@
 
 <script>
 export default {
-
+    data(){
+      return{
+        profile : this.$store.state.profile
+      }
+    }
 }
 </script>
 
