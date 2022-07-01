@@ -3,7 +3,7 @@
      <div class="col-lg-12" v-for="meet in getMeets" :key="meet.id">
         <div class="row">
      
-        <div class="col-lg-6 ">
+        <div class="col-lg-6">
         <a :href="`/meet/${meet.id}`" class="link column justify_content mt-5">
                 <div class="d-flex">
                     <span class="blue_color size_y">Meet Name</span>
@@ -17,8 +17,8 @@
         </a>
         </div>
       
-        <div class="col-lg-6">
-        <img src="./meeting.jpg" alt="Error" style="width:100%; height:300px;">
+        <div class="col-lg-6 mt-3">
+        <img src="./meeting.jpg" alt="Error" style="width:100%; height:300px; border-radius:15px;">
         </div>
         </div>
      </div>

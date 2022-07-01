@@ -1,6 +1,6 @@
 <template>
-  <div class="Profile">
-        <profileDataComponent/>
+  <div class="Profile scrollbar">
+      <profileDataComponent/>
   </div>
 </template>
 
@@ -11,6 +11,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped >
+.Profile{height: 100vh; overflow: scroll; display: flex; flex-direction: column; justify-content: center;}
+@media (max-width: 1200px) {
+     .Profile{justify-content: inherit;}
+}
 </style>

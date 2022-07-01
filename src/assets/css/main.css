@@ -1,4 +1,4 @@
-.opa_anim{animation: 3s opaAnim;}
+.opa_anim{animation: 2s opaAnim;}
 @keyframes opaAnim { 0%{opacity: 0;} 100%{opacity: 1;} }
 .side_anim{animation: 0.5s sideAnim;}
 @keyframes sideAnim {0%{width: 0;} 100%{width: 400px;} }

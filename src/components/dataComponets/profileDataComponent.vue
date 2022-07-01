@@ -1,8 +1,8 @@
 <template>
-  <div class="profileData">
+  <div class="profileData mt-5">
   <div class="container">
 
-  <div class="col-lg-12 column mt-3">
+  <div class="col-lg-12 column mt-4 opa_anim">
         <span class="blue_color size_x">Name</span>
         <span class="dark_color size_y">{{profile.name}}</span>
         <hr>

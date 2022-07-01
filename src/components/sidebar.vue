@@ -57,10 +57,6 @@
 
           </div>
 
-          <div class="mt-5 mx-3">
-                 <i class="bi bi-gear-fill size_c light_color"></i><span class="size_x px-2 light_color">Setting</span>
-          </div>
-
           <div class="d-flex justify_content_align_items pt-5" style="margin-top:200px;">
                 <i class="bi bi-instagram px-2 light_color size_x"></i>
                 <i class="bi bi-twitter px-2 light_color size_x"></i>
@@ -136,10 +132,6 @@
              </div>
           </router-link>
 
-          </div>
-
-          <div class="mt-5 mx-3">
-              <i class="bi bi-gear-fill size_c blue_color"></i><span class="size_x px-2 blue_color">Setting</span>
           </div>
 
           <div class="d-flex justify_content_align_items pt-5" style="margin-top:200px;">
