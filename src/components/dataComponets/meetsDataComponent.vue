@@ -12,7 +12,7 @@
         </div>
         
         <div class="col-lg-12 my-3 animate__animated animate__fadeInRight" v-for="meet in getMeets" :key="meet.id">
-            <a :href="`/Meet/${meet.id}`" class="link column">
+            <router-link :to="`/Meet/${meet.id}`" class="link column">
             <div class="row">
             <div class="col-lg-6 column justify_content">
                   <div class="d-flex">
@@ -29,7 +29,7 @@
             <img src="./meeting.jpg" alt="Error" style="width:100%; height:300px; border-radius:10px;">
             </div>
             </div>
-            </a>
+            </router-link>
             <hr>
         </div>
         

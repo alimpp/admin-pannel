@@ -4,7 +4,7 @@
         <div class="row">
      
         <div class="col-lg-6">
-        <a :href="`/meet/${meet.id}`" class="link column justify_content mt-5">
+        <router-link :to="`/Meet/${meet.id}`" class="link column justify_content mt-5">
                 <div class="d-flex">
                     <span class="blue_color size_y">Meet Name</span>
                     <span class="dark_color size_y px-2">{{meet.name}}</span>
@@ -14,7 +14,7 @@
                     <span class="dark_color size_y px-2">{{meet.time}}</span>
                 </div>
                 <span class="dark_color size_y">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus id quidem vel quo quaerat dignissimos totam inventore libero ex commodi, ea optio. Hic distinctio temporibus ullam numquam quod quia cupiditate!</span>
-        </a>
+        </router-link>
         </div>
       
         <div class="col-lg-6 mt-3">

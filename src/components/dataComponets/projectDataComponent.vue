@@ -15,7 +15,7 @@
            
               <div class="col-lg-6 mt-4 p-4 column px-5 justify_content hover_project" v-for="project in getProject" :key="project.id">
                
-                <a :href="`/Projects/${project.id}`" class="link">
+                <router-link :to="`/Projects/${project.id}`" class="link">
                 <div class="d-flex">
                   <span class="blue_color size_y">Project Name</span>
                   <span class="dark_color size_y px-2">{{project.name}}</span>
@@ -33,7 +33,7 @@
                 </div>
                 <chartLine/>
                 <hr>
-                </a>
+                </router-link>
                
               </div>
               
