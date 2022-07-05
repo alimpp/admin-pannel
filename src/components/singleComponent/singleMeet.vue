@@ -22,6 +22,7 @@
         <img src="./meeting.jpg" alt="Error" style="width:100%; height:300px;">
         </div>
         </div>
+        <hr>
         </div>
       </div>
   </div>

@@ -5,7 +5,6 @@
         Edit Profile
       </button>
 
-
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -20,11 +19,12 @@
                  <input type="text" class="form-control mt-1" placeholder="Phone Number" v-model="phoneNumber">
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary">Save changes</button>
+              <button @click="updateProfile" type="button" class="btn btn-primary">Save changes</button>
             </div>
           </div>
         </div>
       </div>
+
   </div>
 </template>
 
@@ -44,6 +44,11 @@ export default {
         this.email = this.profile.email
         this.country = this.profile.country
         this.phoneNumber = this.profile.phoneNumber
+     } ,
+     methods : {
+      updateProfile(){
+        return this.$store.dispatch('updateProfile' , {name : this.name , email : this.email , country : this.country , phoneNumber : this.phoneNumber })
+      }
      }
 }
 </script>

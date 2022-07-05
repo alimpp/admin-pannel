@@ -135,10 +135,10 @@
           </div>
 
           <div class="d-flex justify_content_align_items pt-5" style="margin-top:200px;">
-                <i class="bi bi-instagram px-2 gray_color size_x"></i>
-                <i class="bi bi-twitter px-2 gray_color size_x"></i>
-                <i class="bi bi-facebook px-2 gray_color size_x"></i>
-                <i class="bi bi-linkedin px-2 gray_color size_x"></i>
+              <i class="bi bi-instagram px-2 gray_color size_x"></i>
+              <i class="bi bi-twitter px-2 gray_color size_x"></i>
+              <i class="bi bi-facebook px-2 gray_color size_x"></i>
+              <i class="bi bi-linkedin px-2 gray_color size_x"></i>
           </div>
 
           <div>
@@ -153,9 +153,9 @@
 
 <script>
 export default {
-    data(){
-      return{
-        profile : this.$store.state.profile
+    computed : {
+      profile(){
+        return this.$store.state.profile
       }
     }
 }
